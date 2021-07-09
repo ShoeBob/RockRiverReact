@@ -51,16 +51,16 @@ export function MobileNavLinks(props) {
       {isOpen && (
         <LinksWrapper>
           <LinkItem>
-            <Link href="#">Home</Link>
+            <Link href="/home">Home</Link>
           </LinkItem>
           <LinkItem>
-            <Link href="#">Services</Link>
+            <Link href="/services">Services</Link>
           </LinkItem>
           <LinkItem>
-            <Link href="#">Company</Link>
+            <Link href="/company">Company</Link>
           </LinkItem>
           <LinkItem>
-            <Link href="#">Contact Us</Link>
+            <Link href="/contact">Contact Us</Link>
           </LinkItem>
           <Marginer />
         </LinksWrapper>

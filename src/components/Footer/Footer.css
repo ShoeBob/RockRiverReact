@@ -1,30 +1,32 @@
-.social-container {
-    background: rgb(153, 152, 241);
-    padding: 25px 50px;
+a.instagram {
+  color: black;
+}
+
+.socialContainer {
+  text-align: center;
+  background: lightblue;
+  padding: 25px 50px;
 }
 
 a.social {
-    margin: 0 1rem;
-    transition: transform 250ms;
-    display: inline-block;
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
 }
 
 a.social:hover {
-    transform: translateY(-2px);
+   transform: translateY(-2px);
 }
 
 a.youtube {
-    color: #eb3223;
+  color: #eb3223;
 }
-  
+
 a.facebook {
-    color: #4968ad;
+  color: #4968ad;
 }
 
 a.twitter {
-    color: #49a1eb;
+  color: #49a1eb;
 }
 
-a.instagram {
-    color: black;
-}
